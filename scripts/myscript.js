@@ -1,0 +1,1 @@
+(function(){var l;l="Hello World!"}).call(this);

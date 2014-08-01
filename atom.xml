@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Your Website</title>
+	<link href="https://casteasoft.github.io/zurb-foundation.docpad//atom.xml" rel="self"/>
+	<link href="https://casteasoft.github.io/zurb-foundation.docpad/"/>
+	<updated>2014-08-01T07:45:52.318Z</updated>
+	<id>https://casteasoft.github.io/zurb-foundation.docpad/</id>
+	<author>
+		<name>Cipto Hadi</name>
+		<email>ciptohadi79@gmail.com</email>
+	</author>
+
+	
+		<entry>
+			<title>Post 6</title>
+			<link href="https://casteasoft.github.io/zurb-foundation.docpad///2014/08/01/post6"/>
+			<updated>2014-08-01T17:00:00.000Z</updated>
+			<id>https://casteasoft.github.io/zurb-foundation.docpad///2014/08/01/post6</id>
+			<content type="html">&lt;!doctype html&gt;
+&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;!--
+      redirect users to the https version of the website.
+      but: only check when on the production domain, as set in _config.yml.
+     --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      var enforce = &quot;casteasoft.github.io&quot;;
+      if ((enforce == window.location.host) &amp;&amp; (window.location.protocol != &quot;https:&quot;))
+        window.location.protocol = &quot;https&quot;;
+    &lt;/script&gt;
+    
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;!-- Mobile viewport optimized --&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+
+    &lt;!-- Our site title and description --&gt;
+    &lt;title&gt;Post 6 | Your Website&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;Cipto Hadi&quot; /&gt;
+
+    &lt;!-- Output DocPad produced meta elements --&gt;
+    &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.68.1&quot; /&gt;
+
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/castea-logo-32.png&quot;&gt;
+
+    &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/app.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/style.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/highlightjs-github.css&quot; /&gt;  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/foundation/js/foundation.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/app.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/script.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+      &lt;div id='layout'&gt;
+        &lt;nav class=&quot;container top-bar&quot; data-topbar&gt;
+            &lt;ul class=&quot; title-area&quot;&gt;
+              &lt;li class=&quot;name&quot;&gt;
+                &lt;h1&gt;&lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/&quot;&gt; Your Website&lt;/a&gt;&lt;/h1&gt;
+              &lt;/li&gt;
+              &lt;li class=&quot;toggle-topbar menu-icon&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;  
+            &lt;section class=&quot;top-bar-section&quot;&gt;
+              &lt;ul class=&quot;right&quot;&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+                  &lt;/li&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+                  &lt;/li&gt;
+                
+              &lt;/ul&gt;
+            &lt;/section&gt;
+        &lt;/nav&gt;
+      &lt;div role=&quot;main&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;columns post-content&quot;&gt;
+			&lt;h1&gt;Post 6&lt;/h1&gt;
+			&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+
+
+	
+&lt;/div&gt;
+      &lt;/div&gt;
+        &lt;div id='layout_footer'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;footer id='footer' class=&quot;panel&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;columns large-5 small-12&quot;&gt;
+        &amp;copy; Casteasoft 2014
+        &lt;/div&gt;
+        &lt;div class=&quot;columns large-7 small-12 &quot;&gt;
+          &lt;ul class=&quot;inline-list foot-right&quot;&gt;
+                  
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; property=&quot;dc:title&quot;&gt;FAQ&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+              &lt;/li&gt;
+            
+              &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/modernizr/modernizr.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Post 5</title>
+			<link href="https://casteasoft.github.io/zurb-foundation.docpad///2014/07/12/post5"/>
+			<updated>2014-07-12T17:00:00.000Z</updated>
+			<id>https://casteasoft.github.io/zurb-foundation.docpad///2014/07/12/post5</id>
+			<content type="html">&lt;!doctype html&gt;
+&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;!--
+      redirect users to the https version of the website.
+      but: only check when on the production domain, as set in _config.yml.
+     --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      var enforce = &quot;casteasoft.github.io&quot;;
+      if ((enforce == window.location.host) &amp;&amp; (window.location.protocol != &quot;https:&quot;))
+        window.location.protocol = &quot;https&quot;;
+    &lt;/script&gt;
+    
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;!-- Mobile viewport optimized --&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+
+    &lt;!-- Our site title and description --&gt;
+    &lt;title&gt;Post 5 | Your Website&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;Cipto Hadi&quot; /&gt;
+
+    &lt;!-- Output DocPad produced meta elements --&gt;
+    &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.68.1&quot; /&gt;
+
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/castea-logo-32.png&quot;&gt;
+
+    &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/app.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/style.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/highlightjs-github.css&quot; /&gt;  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/foundation/js/foundation.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/app.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/script.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+      &lt;div id='layout'&gt;
+        &lt;nav class=&quot;container top-bar&quot; data-topbar&gt;
+            &lt;ul class=&quot; title-area&quot;&gt;
+              &lt;li class=&quot;name&quot;&gt;
+                &lt;h1&gt;&lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/&quot;&gt; Your Website&lt;/a&gt;&lt;/h1&gt;
+              &lt;/li&gt;
+              &lt;li class=&quot;toggle-topbar menu-icon&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;  
+            &lt;section class=&quot;top-bar-section&quot;&gt;
+              &lt;ul class=&quot;right&quot;&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+                  &lt;/li&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+                  &lt;/li&gt;
+                
+              &lt;/ul&gt;
+            &lt;/section&gt;
+        &lt;/nav&gt;
+      &lt;div role=&quot;main&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;columns post-content&quot;&gt;
+			&lt;h1&gt;Post 5&lt;/h1&gt;
+			&lt;p&gt;This is a hello &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+
+
+	
+&lt;/div&gt;
+      &lt;/div&gt;
+        &lt;div id='layout_footer'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;footer id='footer' class=&quot;panel&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;columns large-5 small-12&quot;&gt;
+        &amp;copy; Casteasoft 2014
+        &lt;/div&gt;
+        &lt;div class=&quot;columns large-7 small-12 &quot;&gt;
+          &lt;ul class=&quot;inline-list foot-right&quot;&gt;
+                  
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; property=&quot;dc:title&quot;&gt;FAQ&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+              &lt;/li&gt;
+            
+              &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/modernizr/modernizr.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Post 4</title>
+			<link href="https://casteasoft.github.io/zurb-foundation.docpad///2014/06/30/post4"/>
+			<updated>2014-06-30T17:00:00.000Z</updated>
+			<id>https://casteasoft.github.io/zurb-foundation.docpad///2014/06/30/post4</id>
+			<content type="html">&lt;!doctype html&gt;
+&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;!--
+      redirect users to the https version of the website.
+      but: only check when on the production domain, as set in _config.yml.
+     --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      var enforce = &quot;casteasoft.github.io&quot;;
+      if ((enforce == window.location.host) &amp;&amp; (window.location.protocol != &quot;https:&quot;))
+        window.location.protocol = &quot;https&quot;;
+    &lt;/script&gt;
+    
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;!-- Mobile viewport optimized --&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+
+    &lt;!-- Our site title and description --&gt;
+    &lt;title&gt;Post 4 | Your Website&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;Cipto Hadi&quot; /&gt;
+
+    &lt;!-- Output DocPad produced meta elements --&gt;
+    &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.68.1&quot; /&gt;
+
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/castea-logo-32.png&quot;&gt;
+
+    &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/app.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/style.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/highlightjs-github.css&quot; /&gt;  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/foundation/js/foundation.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/app.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/script.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+      &lt;div id='layout'&gt;
+        &lt;nav class=&quot;container top-bar&quot; data-topbar&gt;
+            &lt;ul class=&quot; title-area&quot;&gt;
+              &lt;li class=&quot;name&quot;&gt;
+                &lt;h1&gt;&lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/&quot;&gt; Your Website&lt;/a&gt;&lt;/h1&gt;
+              &lt;/li&gt;
+              &lt;li class=&quot;toggle-topbar menu-icon&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;  
+            &lt;section class=&quot;top-bar-section&quot;&gt;
+              &lt;ul class=&quot;right&quot;&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+                  &lt;/li&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+                  &lt;/li&gt;
+                
+              &lt;/ul&gt;
+            &lt;/section&gt;
+        &lt;/nav&gt;
+      &lt;div role=&quot;main&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;columns post-content&quot;&gt;
+			&lt;h1&gt;Post 4&lt;/h1&gt;
+			&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+
+
+	
+&lt;/div&gt;
+      &lt;/div&gt;
+        &lt;div id='layout_footer'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;footer id='footer' class=&quot;panel&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;columns large-5 small-12&quot;&gt;
+        &amp;copy; Casteasoft 2014
+        &lt;/div&gt;
+        &lt;div class=&quot;columns large-7 small-12 &quot;&gt;
+          &lt;ul class=&quot;inline-list foot-right&quot;&gt;
+                  
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; property=&quot;dc:title&quot;&gt;FAQ&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+              &lt;/li&gt;
+            
+              &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/modernizr/modernizr.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Post 3</title>
+			<link href="https://casteasoft.github.io/zurb-foundation.docpad///2013/12/30/post3"/>
+			<updated>2013-12-30T17:00:00.000Z</updated>
+			<id>https://casteasoft.github.io/zurb-foundation.docpad///2013/12/30/post3</id>
+			<content type="html">&lt;!doctype html&gt;
+&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;!--
+      redirect users to the https version of the website.
+      but: only check when on the production domain, as set in _config.yml.
+     --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      var enforce = &quot;casteasoft.github.io&quot;;
+      if ((enforce == window.location.host) &amp;&amp; (window.location.protocol != &quot;https:&quot;))
+        window.location.protocol = &quot;https&quot;;
+    &lt;/script&gt;
+    
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;!-- Mobile viewport optimized --&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+
+    &lt;!-- Our site title and description --&gt;
+    &lt;title&gt;Post 3 | Your Website&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;Cipto Hadi&quot; /&gt;
+
+    &lt;!-- Output DocPad produced meta elements --&gt;
+    &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.68.1&quot; /&gt;
+
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/castea-logo-32.png&quot;&gt;
+
+    &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/app.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/style.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/highlightjs-github.css&quot; /&gt;  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/foundation/js/foundation.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/app.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/script.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+      &lt;div id='layout'&gt;
+        &lt;nav class=&quot;container top-bar&quot; data-topbar&gt;
+            &lt;ul class=&quot; title-area&quot;&gt;
+              &lt;li class=&quot;name&quot;&gt;
+                &lt;h1&gt;&lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/&quot;&gt; Your Website&lt;/a&gt;&lt;/h1&gt;
+              &lt;/li&gt;
+              &lt;li class=&quot;toggle-topbar menu-icon&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;  
+            &lt;section class=&quot;top-bar-section&quot;&gt;
+              &lt;ul class=&quot;right&quot;&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+                  &lt;/li&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+                  &lt;/li&gt;
+                
+              &lt;/ul&gt;
+            &lt;/section&gt;
+        &lt;/nav&gt;
+      &lt;div role=&quot;main&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;columns post-content&quot;&gt;
+			&lt;h1&gt;Post 3&lt;/h1&gt;
+			&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+
+
+	
+&lt;/div&gt;
+      &lt;/div&gt;
+        &lt;div id='layout_footer'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;footer id='footer' class=&quot;panel&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;columns large-5 small-12&quot;&gt;
+        &amp;copy; Casteasoft 2014
+        &lt;/div&gt;
+        &lt;div class=&quot;columns large-7 small-12 &quot;&gt;
+          &lt;ul class=&quot;inline-list foot-right&quot;&gt;
+                  
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; property=&quot;dc:title&quot;&gt;FAQ&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+              &lt;/li&gt;
+            
+              &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/modernizr/modernizr.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Post 2</title>
+			<link href="https://casteasoft.github.io/zurb-foundation.docpad///2013/12/01/post2"/>
+			<updated>2013-12-01T17:00:00.000Z</updated>
+			<id>https://casteasoft.github.io/zurb-foundation.docpad///2013/12/01/post2</id>
+			<content type="html">&lt;!doctype html&gt;
+&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;!--
+      redirect users to the https version of the website.
+      but: only check when on the production domain, as set in _config.yml.
+     --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      var enforce = &quot;casteasoft.github.io&quot;;
+      if ((enforce == window.location.host) &amp;&amp; (window.location.protocol != &quot;https:&quot;))
+        window.location.protocol = &quot;https&quot;;
+    &lt;/script&gt;
+    
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;!-- Mobile viewport optimized --&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+
+    &lt;!-- Our site title and description --&gt;
+    &lt;title&gt;Post 2 | Your Website&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;Cipto Hadi&quot; /&gt;
+
+    &lt;!-- Output DocPad produced meta elements --&gt;
+    &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.68.1&quot; /&gt;
+
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/castea-logo-32.png&quot;&gt;
+
+    &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/app.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/style.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/highlightjs-github.css&quot; /&gt;  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/foundation/js/foundation.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/app.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/script.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+      &lt;div id='layout'&gt;
+        &lt;nav class=&quot;container top-bar&quot; data-topbar&gt;
+            &lt;ul class=&quot; title-area&quot;&gt;
+              &lt;li class=&quot;name&quot;&gt;
+                &lt;h1&gt;&lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/&quot;&gt; Your Website&lt;/a&gt;&lt;/h1&gt;
+              &lt;/li&gt;
+              &lt;li class=&quot;toggle-topbar menu-icon&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;  
+            &lt;section class=&quot;top-bar-section&quot;&gt;
+              &lt;ul class=&quot;right&quot;&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+                  &lt;/li&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+                  &lt;/li&gt;
+                
+              &lt;/ul&gt;
+            &lt;/section&gt;
+        &lt;/nav&gt;
+      &lt;div role=&quot;main&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;columns post-content&quot;&gt;
+			&lt;h1&gt;Post 2&lt;/h1&gt;
+			&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+
+
+	
+&lt;/div&gt;
+      &lt;/div&gt;
+        &lt;div id='layout_footer'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;footer id='footer' class=&quot;panel&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;columns large-5 small-12&quot;&gt;
+        &amp;copy; Casteasoft 2014
+        &lt;/div&gt;
+        &lt;div class=&quot;columns large-7 small-12 &quot;&gt;
+          &lt;ul class=&quot;inline-list foot-right&quot;&gt;
+                  
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; property=&quot;dc:title&quot;&gt;FAQ&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+              &lt;/li&gt;
+            
+              &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/modernizr/modernizr.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Post 1</title>
+			<link href="https://casteasoft.github.io/zurb-foundation.docpad///2012/11/08/post1"/>
+			<updated>2012-11-08T17:00:00.000Z</updated>
+			<id>https://casteasoft.github.io/zurb-foundation.docpad///2012/11/08/post1</id>
+			<content type="html">&lt;!doctype html&gt;
+&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;!--
+      redirect users to the https version of the website.
+      but: only check when on the production domain, as set in _config.yml.
+     --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      var enforce = &quot;casteasoft.github.io&quot;;
+      if ((enforce == window.location.host) &amp;&amp; (window.location.protocol != &quot;https:&quot;))
+        window.location.protocol = &quot;https&quot;;
+    &lt;/script&gt;
+    
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;!-- Mobile viewport optimized --&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+
+    &lt;!-- Our site title and description --&gt;
+    &lt;title&gt;Post 1 | Your Website&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;Cipto Hadi&quot; /&gt;
+
+    &lt;!-- Output DocPad produced meta elements --&gt;
+    &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.68.1&quot; /&gt;
+
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/castea-logo-32.png&quot;&gt;
+
+    &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/app.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/style.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/styles/highlightjs-github.css&quot; /&gt;  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/foundation/js/foundation.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/app.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/scripts/script.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+      &lt;div id='layout'&gt;
+        &lt;nav class=&quot;container top-bar&quot; data-topbar&gt;
+            &lt;ul class=&quot; title-area&quot;&gt;
+              &lt;li class=&quot;name&quot;&gt;
+                &lt;h1&gt;&lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/&quot;&gt; Your Website&lt;/a&gt;&lt;/h1&gt;
+              &lt;/li&gt;
+              &lt;li class=&quot;toggle-topbar menu-icon&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;  
+            &lt;section class=&quot;top-bar-section&quot;&gt;
+              &lt;ul class=&quot;right&quot;&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+                  &lt;/li&gt;
+                
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+                  &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                    &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+                  &lt;/li&gt;
+                
+              &lt;/ul&gt;
+            &lt;/section&gt;
+        &lt;/nav&gt;
+      &lt;div role=&quot;main&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;columns post-content&quot;&gt;
+			&lt;h1&gt;Post 1&lt;/h1&gt;
+			&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+
+
+	
+&lt;/div&gt;
+      &lt;/div&gt;
+        &lt;div id='layout_footer'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;footer id='footer' class=&quot;panel&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;columns large-5 small-12&quot;&gt;
+        &amp;copy; Casteasoft 2014
+        &lt;/div&gt;
+        &lt;div class=&quot;columns large-7 small-12 &quot;&gt;
+          &lt;ul class=&quot;inline-list foot-right&quot;&gt;
+                  
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/faq&quot; property=&quot;dc:title&quot;&gt;FAQ&lt;/a&gt;
+              &lt;/li&gt;
+            
+                  &lt;li class=&quot;divider hide-for-small&quot;&gt;&lt;/li&gt;
+              &lt;li typeof=&quot;sioc:Page&quot; about=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; class=&quot;&quot;&gt;
+                &lt;a href=&quot;https://casteasoft.github.io/zurb-foundation.docpad/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+              &lt;/li&gt;
+            
+              &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+  
+    &lt;script defer=&quot;defer&quot;  src=&quot;https://casteasoft.github.io/zurb-foundation.docpad/bower_components/modernizr/modernizr.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</content>
+		</entry>
+	
+</feed>
