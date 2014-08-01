@@ -1,0 +1,7 @@
+node_modules/
+out/
+src/static/bower_components
+.idea/
+.DS_Store
+*.iml
+.sass-cache/

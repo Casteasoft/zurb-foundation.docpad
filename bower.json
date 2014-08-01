@@ -1,0 +1,13 @@
+{
+  "name": "zurb-foundation.docpad.bower",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "fastclick": "ftlabs/fastclick",
+    "foundation": "zurb/bower-foundation",
+    "jquery": "jquery/jquery",
+    "jquery-placeholder": "mathiasbynens/jquery-placeholder",
+    "jquery.cookie": "carhartl/jquery-cookie",
+    "modernizr": "Modernizr/Modernizr"
+  }
+}

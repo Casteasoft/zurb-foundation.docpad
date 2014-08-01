@@ -1,0 +1,76 @@
+---
+htmlmin: true
+---
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Our site title and description -->
+    <title><%= @getPreparedTitle() %></title>
+    <meta name="description" content="<%= @getPreparedDescription() %>" />
+    <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+    <meta name="author" content="<%= @site.author or '' %>" />
+
+    <!-- Output DocPad produced meta elements -->
+    <%- @getBlock("meta").toHTML() %>
+
+    <link rel="shortcut icon" href="/castea-logo-32.png">
+
+    <!-- Shims: IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <%- @getBlock("styles").add(@site.styles).toHTML() %>  
+    <%- @getBlock("scripts").add(@site.scriptsHead).toHTML() %>
+  </head>
+
+  <body>
+      <div id='layout'>
+        <nav class="container top-bar" data-topbar>
+            <ul class=" title-area">
+              <li class="name">
+                <h1><a href="/"> <%= @site.title %></a></h1>
+              </li>
+              <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>  
+            <section class="top-bar-section">
+              <ul class="right">
+                <% for document in @getCollection('documentsInMainNav').toJSON(): %>
+                  <li class="divider hide-for-small"></li>
+                  <li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
+                    <a href="<%= document.url %>" property="dc:title"><%= document.navtitle %></a>
+                  </li>
+                <% end %>
+              </ul>
+            </section>
+        </nav>
+      <div role="main">
+        <%- @content %>
+      </div>
+        <div id='layout_footer'></div>
+    </div>
+    <footer id='footer' class="panel">
+      <div class="row">
+        <div class="columns large-5 small-12">
+        &copy; <%= @site.company %> <%- (new Date()).getFullYear() %>
+        </div>
+        <div class="columns large-7 small-12 ">
+          <ul class="inline-list foot-right">
+                  <% for document in @getCollection('pages').toJSON(): %>
+                  <li class="divider hide-for-small"></li>
+              <li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
+                <a href="<%= document.url %>" property="dc:title"><%= document.navtitle %></a>
+              </li>
+            <% end %>
+              </ul>
+        </div>
+      </div>
+    </footer>
+  
+    <%- @getBlock("scripts").add(@site.scriptsBody).toHTML() %>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+---
+title: Blog
+layout: page
+isPaged: true
+pagedCollection: 'posts'
+pageSize: 2
+
+pageOrder: 3
+includenInNavs: ['main']
+navtitle: Blog
+---
+
+<!-- Page Content -->
+<% for document in @getPageCollection('posts').toJSON(): %>
+    <article id="post" class="post">
+        <h1><a href='<%=document.url%>'><%= document.title %></a></h1>
+        <div class="post-date"><%= document.date.toLocaleDateString() %></div>
+        <div class="post-content">
+            <%- document.contentRenderedWithoutLayouts %>
+        </div>
+    </article>
+<% end %>
+
+<!-- Page Listing -->
+<div>
+    <ul class="pagination">
+        <!-- Previous Page Button -->
+        <% unless @hasPrevPage(): %>
+            <li class="disabled"><span>Prev</span></li>
+        <% else: %>
+            <li><a href="<%= @getPrevPage() %>">Prev</a></li>
+        <% end %>
+
+        <!-- Page Number Buttons -->
+        <% for pageNumber in [0..@document.page.count-1]: %>
+            <% if @document.page.number is pageNumber: %>
+                <li class="active"><span><%= pageNumber + 1 %></span></li>
+            <% else: %>
+                <li><a href="<%= @getPageUrl(pageNumber) %>"><%= pageNumber + 1 %></a></li>
+            <% end %>
+        <% end %>
+
+        <!-- Next Page Button -->
+        <% unless @hasNextPage(): %>
+            <li class="disabled"><span>Next</span></li>
+        <% else: %>
+            <li><a href="<%= @getNextPage() %>">Next</a></li>
+        <% end %>
+    </ul>
+</div>
