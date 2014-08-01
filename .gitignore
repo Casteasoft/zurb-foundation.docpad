@@ -1,5 +1,6 @@
 node_modules/
 out/
+gh-pages/
 src/static/bower_components
 .idea/
 .DS_Store
