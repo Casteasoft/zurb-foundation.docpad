@@ -1,10 +1,9 @@
 ---
 cleancss: true
 ---
-@import "settings";
 @import "../../static/bower_components/foundation/scss/normalize",
   "../../static/bower_components/foundation/scss/foundation";
-
+@import "settings";
 
 header {
   @include grid-row;

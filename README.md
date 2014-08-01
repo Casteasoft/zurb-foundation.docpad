@@ -1,5 +1,5 @@
 # [DocPad](https://github.com/bevry/docpad) skeleton based on [Zurb Foundation 5](https://github.com/zurb/foundation) 
-This skeleton supports blog posts, clean url, posts url using date-url based, and pagination on blog posts listing. For production deployment, change env variable to production (at docpad.coffee).
+This skeleton supports blog posts, clean url, posts url using date-url based, and pagination on blog posts listing.
 Idea and many codes are borrowed from [Clearskyabove docpad foundation skeleton](https://github.com/Clearskyabove/zurb-foundation.docpad).
 
 ## Getting Started
